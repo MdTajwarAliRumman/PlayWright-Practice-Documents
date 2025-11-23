@@ -2,7 +2,7 @@
 import { test, expect } from '@playwright/test';
 
 // write a test
-test('First test for playwright', async ({ page }) => {
+test('Record at cursor test', async ({ page }) => {
 
     // go to Url
     await page.goto('https://duckduckgo.com/');
@@ -20,17 +20,9 @@ test('First test for playwright', async ({ page }) => {
 
     // validate web page title
     await expect(page).toHaveTitle('Playwright by Testers Talk ✅ - YouTube');
-})
 
-// import { test, expect } from '@playwright/test';
-
-// test('test', async ({ page }) => {
-//     await page.goto('https://duckduckgo.com/');
-//     await page.getByRole('combobox', { name: 'Search with DuckDuckGo' }).fill('tester\'s talk');
-//     await page.getByRole('combobox', { name: 'Search with DuckDuckGo' }).press('ArrowDown');
-//     await page.getByRole('combobox', { name: 'Search with DuckDuckGo' }).press('ArrowDown');
-//     await page.getByRole('combobox', { name: 'Search with DuckDuckGo' }).press('Enter');
-//     await page.getByRole('link', { name: 'Testers Talk - YouTube', exact: true }).click();
-// });
-
-
+    await expect(page.getByRole('link', { name: '#1 Playwright Tutorial Full' })).toBeVisible();
+    await expect(page.getByRole('link', { name: '#2 Playwright API Testing' })).toBeVisible();
+    await expect(page.getByLabel('#1 Playwright Tutorial Full Course 2025').locator('#video-title')).toContainText('#1 Playwright Tutorial Full Course 2025 | Playwright Testing Tutorial');
+    await expect(page.getByLabel('#2 Playwright API Testing').locator('#video-title')).toContainText('#2 Playwright API Testing Tutorial Crash Course 2024');
+}) 

@@ -1,0 +1,8 @@
+// Test specific file
+" npx playwirght test FileName "
+
+//Test specific file using browser
+" npx playwright test FileName --project='Google Chrome' "
+
+// CodeGen tool
+" npx playwright codegen "
