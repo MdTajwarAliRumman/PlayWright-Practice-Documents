@@ -6,3 +6,9 @@
 
 // CodeGen tool
 " npx playwright codegen "
+
+// Playwright hooks
+1. beforeAll() -> code block will be executed before running all tests
+2. beforeEach() -> code block will be executed before running each and every tests
+3. afterAll() -> code block will be executed after running each and every tests
+4. afterEach() -> code block will be executed after running all tests

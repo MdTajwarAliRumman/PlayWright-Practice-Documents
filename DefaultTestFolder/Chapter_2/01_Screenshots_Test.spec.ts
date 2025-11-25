@@ -19,7 +19,7 @@ test('Capture Screenshots in playwright', async ({ page }) => {
 
 
 })
-6
+
 
 
 
