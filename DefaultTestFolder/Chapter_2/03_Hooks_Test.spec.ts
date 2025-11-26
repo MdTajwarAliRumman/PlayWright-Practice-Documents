@@ -5,24 +5,30 @@ test.beforeAll(async () => {
     console.log('running before all tests.........')
 })
 
+test.beforeEach(async ({ page }) => {
+    await page.goto('https://duckduckgo.com/');
+    console.log('running before each tests.........')
+})
 
 test.afterAll(async () => {
     console.log('running after all tests.........')
 })
+
+test.afterEach(async () => {
+    console.log('running after Each tests.........')
+})
+
 // write a test
 test('Test 1', async ({ page }) => {
 
     // go to Url
-    await page.goto('https://duckduckgo.com/');
+    // await page.goto('https://duckduckgo.com/');
     console.log('Test 1 execution started');
 
     // search with keywords)
 
     await page.getByRole('combobox', { name: 'Search with DuckDuckGo' }).fill('platwirght by testers talk');
     await page.getByRole('combobox', { name: 'Search with DuckDuckGo' }).press('Enter');
-
-    // await page.locator("//textarea[@id='APjFqb']").fill('Playwright by Testers Talk ');
-    // await page.locator("//textarea[@id='APjFqb']").press('Enter');
 
     // click on playlist
     await page.getByRole('link', { name: 'Playwright by Testers Talk -' }).first().click();
