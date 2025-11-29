@@ -2,7 +2,7 @@
 import { test, expect } from '@playwright/test';
 
 // write a test
-test('Handling MouseActions in playwright', async ({ page }) => {
+test('MouseActions in playwright', async ({ page }) => {
 
     // go to Url
     await page.goto('https://duckduckgo.com/');
