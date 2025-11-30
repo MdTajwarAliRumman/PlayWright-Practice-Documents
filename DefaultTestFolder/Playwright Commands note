@@ -14,9 +14,25 @@
 4. afterEach() -> code block will be executed after running all tests
 //------------------------------------------------------------------------------------------------------------------------->
 // If we expect some text in playwright we will use "expect", Example Below:
-await expect(page.locator("#dropdown-class-example > option")).toHaveText(['option1', 'option2', 'option3'])
+" await expect(page.locator("#dropdown-class-example > option")).toHaveText(['option1', 'option2', 'option3']) "
 //------------------------------------------------------------------------------------------------------------------------->
 // Multiple elements, we need to switch into iframe first then perform tasks, Example Below:
     const iframe = page.frameLocator('[class="demo-frame"]');
     const dragElement = iframe.locator("div[id='draggable'] p");
+//------------------------------------------------------------------------------------------------------------------------->
+// Assertions in Playwright
+    " There are 2 types of Asserstions: Hard and Soft "
+    1. Hard Assertions - if test fails it will stop the text execution
+    2. Soft Assertions - if test fails it will continue the test till the end of the test case.
+
+    a) Editable - toBeEditable()
+    b) Visible - toB Visible ()
+    c) Enabled - toBeEnabled ()
+    d) Empty - toBeEmpty ()
+
+    e) URL - toHaveURL ()
+    f) Title - to Have Title ()
+    g) Text - toHave Text ()
+    h) Count - toHaveCount ()
+    i) Disabled - toBeDisabled ()
 //------------------------------------------------------------------------------------------------------------------------->
