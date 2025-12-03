@@ -2,7 +2,7 @@
 import { test, expect } from '@playwright/test';
 
 // write a test
-test('Assertions in playwright', async ({ page }) => {
+test('Soft Assertions in playwright', async ({ page }) => {
 
     // go to Url
     // await page.goto('https://duckduckgo.com/');
@@ -20,7 +20,9 @@ test('Assertions in playwright', async ({ page }) => {
 
     // expect page to have URl,title,text
     await expect(page).toHaveURL("https://www.w3schools.com/");
-    await expect(page).toHaveTitle("W3Schools Online Web Tutorials");
+
+    // here i have inserted Soft assertion so that the code can continue testing the rest of the tests
+    await expect.soft(page).toHaveTitle("W3Schools * Web Tutorials");
     await expect(page.locator("//h3[@class='learntocodeh3']")).toHaveText("With the world's largest web developer site.");
     // await expect(page.locator("//h3[@class='learntocodeh3']")).toHaveCount(2);
 
