@@ -4,6 +4,8 @@ import { test, expect } from '@playwright/test';
 // write a test
 test('First test for playwright', async ({ page }) => {
 
+    console.log('test execution Started..');
+
     // go to Url
     await page.goto('https://duckduckgo.com/');
 
