@@ -60,3 +60,4 @@ test('Testcase -3', { tag: ['@regressionTesting'] }, async ({ page }) => {
 })
 
 
+// run in terminal:  npx playwright test --grep "@smokeTesting"

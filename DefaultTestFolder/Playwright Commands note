@@ -49,3 +49,11 @@ note: go to playwirght.config.ts -> use and set trace as-> 'on'
 //********** Annotations *****************
 1. skip test
 2. Run only selected test
+
+//------------------------------------------------------------------------------------------------------------------------->
+//********** Tags  *****************
+npx playwright test --grep '@somkeTesting'
+
+//------------------------------------------------------------------------------------------------------------------------->
+//********** same test several times run code  *****************
+npx playwright test DefaultTestFolder/Chapter_1/02_FirstTest.spec.ts --repeat-each=2
