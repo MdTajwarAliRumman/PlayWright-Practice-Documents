@@ -14,6 +14,15 @@ import { on } from 'events';
  */
 export default defineConfig({
   testDir: './DefaultTestFolder',
+  //Waiting time . for whole freame work
+  timeout: 2 * 60 * 1000,
+
+  globalTimeout: 60 * 60 * 1000,
+  // assertion timeout,
+  expect: {
+    timeout: 10000
+  },
+
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
@@ -33,7 +42,10 @@ export default defineConfig({
     testIdAttribute: 'data-tab-item',
     screenshot: 'only-on-failure',
     trace: 'on',
-    headless: false
+    headless: false,
+
+    // action timeout
+    actionTimeout: 10000,
   },
 
   /* Configure projects for major browsers */
@@ -64,14 +76,14 @@ export default defineConfig({
     // },
 
     /* Test against branded browsers. */
-    // {
-    //   name: 'Microsoft Edge',
-    //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
-    // },
     {
-      name: 'Google Chrome',
-      use: { ...devices['Desktop Chrome'], channel: 'chrome' },
+      name: 'Microsoft Edge',
+      use: { ...devices['Desktop Edge'], channel: 'msedge' },
     },
+    // {
+    //   name: 'Google Chrome',
+    //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
+    // },
   ],
 
   /* Run your local dev server before starting the tests */
