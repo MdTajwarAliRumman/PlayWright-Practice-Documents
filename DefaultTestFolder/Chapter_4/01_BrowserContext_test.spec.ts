@@ -14,31 +14,27 @@ test('Multiple browser/tabs in Playwright Typescript', async ({ page, browser })
     await page.getByRole('combobox', { name: 'Search with DuckDuckGo' }).fill('platwirght by testers talk');
     await page.getByRole('combobox', { name: 'Search with DuckDuckGo' }).press('Enter');
 
-
-
-    // click on playlist
     await page.getByRole('link', { name: 'Playwright by Testers Talk -' }).first().click();
-
-    // validate web page title
     await expect(page).toHaveTitle('Playwright by Testers Talk ✅ - YouTube');
+
 
     const context2 = await browser.newContext();
     const page2 = await context2.newPage();
 
+    // open new browser session
     await page2.goto('https://duckduckgo.com/');
-
-    // search with keywords)
 
     await page2.getByRole('combobox', { name: 'Search with DuckDuckGo' }).fill('platwirght by testers talk');
     await page2.getByRole('combobox', { name: 'Search with DuckDuckGo' }).press('Enter');
-
-
-
-    // click on playlist
     await page2.getByRole('link', { name: 'Playwright by Testers Talk -' }).first().click();
-
-    // validate web page title
     await expect(page2).toHaveTitle('Playwright by Testers Talk ✅ - YouTube');
+
+    //create new tab
+    const newTab = await context2.newPage();
+    await newTab.goto('https://duckduckgo.com/');
+
+    await newTab.getByRole('combobox', { name: 'Search with DuckDuckGo' }).fill('platwirght by testers talk');
+    await newTab.getByRole('combobox', { name: 'Search with DuckDuckGo' }).press('Enter');
 })
 
 
