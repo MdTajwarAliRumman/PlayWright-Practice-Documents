@@ -21,7 +21,7 @@ test('Multiple browser/tabs in Playwright Typescript', async ({ page, browser })
     const context2 = await browser.newContext();
     const page2 = await context2.newPage();
 
-    // open new browser session
+    // open new browser session it opens a new browser
     await page2.goto('https://duckduckgo.com/');
 
     await page2.getByRole('combobox', { name: 'Search with DuckDuckGo' }).fill('platwirght by testers talk');
@@ -29,7 +29,7 @@ test('Multiple browser/tabs in Playwright Typescript', async ({ page, browser })
     await page2.getByRole('link', { name: 'Playwright by Testers Talk -' }).first().click();
     await expect(page2).toHaveTitle('Playwright by Testers Talk ✅ - YouTube');
 
-    //create new tab
+    //create new tab in a specific browser session
     const newTab = await context2.newPage();
     await newTab.goto('https://duckduckgo.com/');
 

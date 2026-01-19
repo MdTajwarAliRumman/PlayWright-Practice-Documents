@@ -57,3 +57,12 @@ npx playwright test --grep '@somkeTesting'
 //------------------------------------------------------------------------------------------------------------------------->
 //********** same test several times run code  *****************
 npx playwright test DefaultTestFolder/Chapter_1/02_FirstTest.spec.ts --repeat-each=2
+
+//------------------------------------------------------------------------------------------------------------------------->
+//********** testing all testcases in terminal *****************
+npx playwright test DefaultTestFolder/Chapter_4/02_ReRunFailed_Test.spec.ts  (This code is fortesting all testcases in terminal)
+
+//------------------------------------------------------------------------------------------------------------------------->
+//********** testing failed testcases in terminal *****************
+npx playwright test --last-failed
+
