@@ -1,0 +1,314 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\playwright.config.ts",
+    "rootDir": "C:/Users/Tajwar (Day Shift)/Desktop/All Important docs/Automation tests/Playwright test/DefaultTestFolder",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 3600000,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "json-test-report.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "junit-test-report.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/Tajwar (Day Shift)/Desktop/All Important docs/Automation tests/Playwright test/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "Microsoft Edge",
+        "name": "Microsoft Edge",
+        "testDir": "C:/Users/Tajwar (Day Shift)/Desktop/All Important docs/Automation tests/Playwright test/DefaultTestFolder",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 120000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.56.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "Chapter_4\\04_TestReport_test.spec.ts",
+      "file": "Chapter_4/04_TestReport_test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "SmokeTesting",
+          "file": "Chapter_4/04_TestReport_test.spec.ts",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Test-1",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 12771,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "test execution Started..\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-19T10:07:44.572Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_4-04_TestReport_test-SmokeTesting-Test-1-Microsoft-Edge\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ba5f286a953fad5610bb-761cd518b1aa4ba23fb2",
+              "file": "Chapter_4/04_TestReport_test.spec.ts",
+              "line": 5,
+              "column": 9
+            }
+          ]
+        },
+        {
+          "title": "RegressionTesting",
+          "file": "Chapter_4/04_TestReport_test.spec.ts",
+          "line": 21,
+          "column": 6,
+          "specs": [
+            {
+              "title": "test-2",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "passed",
+                      "duration": 12731,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "test execution Started..\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-19T10:07:44.572Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_4-04_TestReport_test-RegressionTesting-test-2-Microsoft-Edge\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ba5f286a953fad5610bb-58d435bea3c643836ba5",
+              "file": "Chapter_4/04_TestReport_test.spec.ts",
+              "line": 22,
+              "column": 9
+            },
+            {
+              "title": "Test -3",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 14099,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "test execution Started..\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-19T10:07:44.568Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_4-04_TestReport_test-RegressionTesting-Test--3-Microsoft-Edge\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ba5f286a953fad5610bb-7af4b9431753f6e9702c",
+              "file": "Chapter_4/04_TestReport_test.spec.ts",
+              "line": 37,
+              "column": 9
+            },
+            {
+              "title": "Test-4",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 120000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "failed",
+                      "duration": 22175,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"Playwright \u001b[7mTypescript \u001b[27mby Testers Talk ✅ - YouTube\"\u001b[39m\nReceived: \u001b[31m\"Playwright by Testers Talk ✅ - YouTube\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 10000ms\u001b[22m\n\u001b[2m    3 × unexpected value \"\"\u001b[22m\n\u001b[2m    9 × unexpected value \"Playwright by Testers Talk ✅ - YouTube\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"Playwright \u001b[7mTypescript \u001b[27mby Testers Talk ✅ - YouTube\"\u001b[39m\nReceived: \u001b[31m\"Playwright by Testers Talk ✅ - YouTube\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 10000ms\u001b[22m\n\u001b[2m    3 × unexpected value \"\"\u001b[22m\n\u001b[2m    9 × unexpected value \"Playwright by Testers Talk ✅ - YouTube\"\u001b[22m\n\n    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\DefaultTestFolder\\Chapter_4\\04_TestReport_test.spec.ts:63:28)\n    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\workerMain.js:310:9)\n    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\testInfo.js:305:11)\n    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\workerMain.js:308:7)",
+                        "location": {
+                          "file": "Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\DefaultTestFolder\\Chapter_4\\04_TestReport_test.spec.ts",
+                          "column": 28,
+                          "line": 63
+                        }
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\DefaultTestFolder\\Chapter_4\\04_TestReport_test.spec.ts",
+                            "column": 28,
+                            "line": 63
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"Playwright \u001b[7mTypescript \u001b[27mby Testers Talk ✅ - YouTube\"\u001b[39m\nReceived: \u001b[31m\"Playwright by Testers Talk ✅ - YouTube\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 10000ms\u001b[22m\n\u001b[2m    3 × unexpected value \"\"\u001b[22m\n\u001b[2m    9 × unexpected value \"Playwright by Testers Talk ✅ - YouTube\"\u001b[22m\n\n\u001b[2m    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\DefaultTestFolder\\Chapter_4\\04_TestReport_test.spec.ts:63:28)\u001b[22m\n\u001b[2m    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\workerMain.js:310:9)\u001b[22m\n\u001b[2m    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\testInfo.js:305:11)\u001b[22m\n\u001b[2m    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\workerMain.js:308:7)\u001b[22m"
+                        }
+                      ],
+                      "stdout": [
+                        {
+                          "text": "test execution Started..\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-01-19T10:07:44.576Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_4-04_TestReport_test-RegressionTesting-Test-4-Microsoft-Edge\\test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_4-04_TestReport_test-RegressionTesting-Test-4-Microsoft-Edge\\error-context.md"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_4-04_TestReport_test-RegressionTesting-Test-4-Microsoft-Edge\\trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\DefaultTestFolder\\Chapter_4\\04_TestReport_test.spec.ts",
+                        "column": 28,
+                        "line": 63
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "ba5f286a953fad5610bb-9c425cee0c1532f3b45a",
+              "file": "Chapter_4/04_TestReport_test.spec.ts",
+              "line": 51,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-19T10:07:43.854Z",
+    "duration": 23862.625,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}
