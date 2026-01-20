@@ -96,7 +96,7 @@
                       "workerIndex": 0,
                       "parallelIndex": 0,
                       "status": "passed",
-                      "duration": 20221,
+                      "duration": 13443,
                       "errors": [],
                       "stdout": [
                         {
@@ -105,14 +105,9 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-20T06:02:31.673Z",
+                      "startTime": "2026-01-20T06:12:34.936Z",
                       "annotations": [],
                       "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_4-04_TestReport_test-SmokeTesting-Test-1-Microsoft-Edge\\video.webm"
-                        },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
@@ -139,7 +134,7 @@
           "specs": [
             {
               "title": "test-2",
-              "ok": false,
+              "ok": true,
               "tags": [],
               "tests": [
                 {
@@ -152,27 +147,9 @@
                     {
                       "workerIndex": 1,
                       "parallelIndex": 1,
-                      "status": "failed",
-                      "duration": 21229,
-                      "error": {
-                        "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Playwright by Testers Talk -' }).first()\u001b[22m\n",
-                        "stack": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Playwright by Testers Talk -' }).first()\u001b[22m\n\n    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\DefaultTestFolder\\Chapter_4\\04_TestReport_test.spec.ts:32:88)\n    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\workerMain.js:310:9)\n    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\testInfo.js:305:11)\n    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\workerMain.js:308:7)",
-                        "location": {
-                          "file": "Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\DefaultTestFolder\\Chapter_4\\04_TestReport_test.spec.ts",
-                          "column": 88,
-                          "line": 32
-                        }
-                      },
-                      "errors": [
-                        {
-                          "location": {
-                            "file": "Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\DefaultTestFolder\\Chapter_4\\04_TestReport_test.spec.ts",
-                            "column": 88,
-                            "line": 32
-                          },
-                          "message": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Playwright by Testers Talk -' }).first()\u001b[22m\n\n\u001b[2m    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\DefaultTestFolder\\Chapter_4\\04_TestReport_test.spec.ts:32:88)\u001b[22m\n\u001b[2m    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\workerMain.js:310:9)\u001b[22m\n\u001b[2m    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\testInfo.js:305:11)\u001b[22m\n\u001b[2m    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\workerMain.js:308:7)\u001b[22m"
-                        }
-                      ],
+                      "status": "passed",
+                      "duration": 10820,
+                      "errors": [],
                       "stdout": [
                         {
                           "text": "test execution Started..\n"
@@ -180,33 +157,18 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-20T06:02:31.665Z",
+                      "startTime": "2026-01-20T06:12:34.908Z",
                       "annotations": [],
                       "attachments": [
-                        {
-                          "name": "screenshot",
-                          "contentType": "image/png",
-                          "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_4-04_TestReport_test-RegressionTesting-test-2-Microsoft-Edge\\test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_4-04_TestReport_test-RegressionTesting-test-2-Microsoft-Edge\\video.webm"
-                        },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
                           "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_4-04_TestReport_test-RegressionTesting-test-2-Microsoft-Edge\\trace.zip"
                         }
-                      ],
-                      "errorLocation": {
-                        "file": "Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\DefaultTestFolder\\Chapter_4\\04_TestReport_test.spec.ts",
-                        "column": 88,
-                        "line": 32
-                      }
+                      ]
                     }
                   ],
-                  "status": "unexpected"
+                  "status": "expected"
                 }
               ],
               "id": "ba5f286a953fad5610bb-58d435bea3c643836ba5",
@@ -230,7 +192,7 @@
                       "workerIndex": 2,
                       "parallelIndex": 2,
                       "status": "passed",
-                      "duration": 18256,
+                      "duration": 13569,
                       "errors": [],
                       "stdout": [
                         {
@@ -239,14 +201,9 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-20T06:02:31.643Z",
+                      "startTime": "2026-01-20T06:12:34.891Z",
                       "annotations": [],
                       "attachments": [
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_4-04_TestReport_test-RegressionTesting-Test--3-Microsoft-Edge\\video.webm"
-                        },
                         {
                           "name": "trace",
                           "contentType": "application/zip",
@@ -279,10 +236,10 @@
                       "workerIndex": 3,
                       "parallelIndex": 3,
                       "status": "failed",
-                      "duration": 35474,
+                      "duration": 19608,
                       "error": {
-                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"Playwright \u001b[7mTypescript \u001b[27mby Testers Talk ✅ - YouTube\"\u001b[39m\nReceived: \u001b[31m\"Playwright by Testers Talk ✅ - YouTube\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 10000ms\u001b[22m\n\u001b[2m    4 × unexpected value \"\"\u001b[22m\n\u001b[2m    9 × unexpected value \"Playwright by Testers Talk ✅ - YouTube\"\u001b[22m\n",
-                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"Playwright \u001b[7mTypescript \u001b[27mby Testers Talk ✅ - YouTube\"\u001b[39m\nReceived: \u001b[31m\"Playwright by Testers Talk ✅ - YouTube\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 10000ms\u001b[22m\n\u001b[2m    4 × unexpected value \"\"\u001b[22m\n\u001b[2m    9 × unexpected value \"Playwright by Testers Talk ✅ - YouTube\"\u001b[22m\n\n    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\DefaultTestFolder\\Chapter_4\\04_TestReport_test.spec.ts:63:28)\n    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\workerMain.js:310:9)\n    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\testInfo.js:305:11)\n    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\workerMain.js:308:7)",
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"Playwright \u001b[7mTypescript \u001b[27mby Testers Talk ✅ - YouTube\"\u001b[39m\nReceived: \u001b[31m\"Playwright by Testers Talk ✅ - YouTube\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 10000ms\u001b[22m\n\u001b[2m    4 × unexpected value \"\"\u001b[22m\n\u001b[2m    7 × unexpected value \"Playwright by Testers Talk ✅ - YouTube\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"Playwright \u001b[7mTypescript \u001b[27mby Testers Talk ✅ - YouTube\"\u001b[39m\nReceived: \u001b[31m\"Playwright by Testers Talk ✅ - YouTube\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 10000ms\u001b[22m\n\u001b[2m    4 × unexpected value \"\"\u001b[22m\n\u001b[2m    7 × unexpected value \"Playwright by Testers Talk ✅ - YouTube\"\u001b[22m\n\n    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\DefaultTestFolder\\Chapter_4\\04_TestReport_test.spec.ts:63:28)\n    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\workerMain.js:310:9)\n    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\testInfo.js:305:11)\n    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\workerMain.js:308:7)",
                         "location": {
                           "file": "Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\DefaultTestFolder\\Chapter_4\\04_TestReport_test.spec.ts",
                           "column": 28,
@@ -296,7 +253,7 @@
                             "column": 28,
                             "line": 63
                           },
-                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"Playwright \u001b[7mTypescript \u001b[27mby Testers Talk ✅ - YouTube\"\u001b[39m\nReceived: \u001b[31m\"Playwright by Testers Talk ✅ - YouTube\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 10000ms\u001b[22m\n\u001b[2m    4 × unexpected value \"\"\u001b[22m\n\u001b[2m    9 × unexpected value \"Playwright by Testers Talk ✅ - YouTube\"\u001b[22m\n\n\u001b[2m    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\DefaultTestFolder\\Chapter_4\\04_TestReport_test.spec.ts:63:28)\u001b[22m\n\u001b[2m    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\workerMain.js:310:9)\u001b[22m\n\u001b[2m    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\testInfo.js:305:11)\u001b[22m\n\u001b[2m    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\workerMain.js:308:7)\u001b[22m"
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected: \u001b[32m\"Playwright \u001b[7mTypescript \u001b[27mby Testers Talk ✅ - YouTube\"\u001b[39m\nReceived: \u001b[31m\"Playwright by Testers Talk ✅ - YouTube\"\u001b[39m\nTimeout:  10000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveTitle\" with timeout 10000ms\u001b[22m\n\u001b[2m    4 × unexpected value \"\"\u001b[22m\n\u001b[2m    7 × unexpected value \"Playwright by Testers Talk ✅ - YouTube\"\u001b[22m\n\n\u001b[2m    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\DefaultTestFolder\\Chapter_4\\04_TestReport_test.spec.ts:63:28)\u001b[22m\n\u001b[2m    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\workerMain.js:310:9)\u001b[22m\n\u001b[2m    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\testInfo.js:305:11)\u001b[22m\n\u001b[2m    at C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\playwright\\lib\\worker\\workerMain.js:308:7)\u001b[22m"
                         }
                       ],
                       "stdout": [
@@ -306,18 +263,13 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2026-01-20T06:02:31.673Z",
+                      "startTime": "2026-01-20T06:12:34.902Z",
                       "annotations": [],
                       "attachments": [
                         {
                           "name": "screenshot",
                           "contentType": "image/png",
                           "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_4-04_TestReport_test-RegressionTesting-Test-4-Microsoft-Edge\\test-failed-1.png"
-                        },
-                        {
-                          "name": "video",
-                          "contentType": "video/webm",
-                          "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_4-04_TestReport_test-RegressionTesting-Test-4-Microsoft-Edge\\video.webm"
                         },
                         {
                           "name": "error-context",
@@ -352,11 +304,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-01-20T06:02:30.836Z",
-    "duration": 37655.203,
-    "expected": 2,
+    "startTime": "2026-01-20T06:12:34.186Z",
+    "duration": 21339.142,
+    "expected": 3,
     "skipped": 0,
-    "unexpected": 2,
+    "unexpected": 1,
     "flaky": 0
   }
 }
