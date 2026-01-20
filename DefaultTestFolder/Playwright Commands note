@@ -69,3 +69,29 @@ npx playwright test --last-failed
 //------------------------------------------------------------------------------------------------------------------------->
 //********** testing with specific workers *****************
 npx playwright test DefaultTestFolder/Chapter_4/04_TestReport_test.spec.ts --workers 2
+
+//------------------------------------------------------------------------------------------------------------------------->
+//********** Code for allure report *****************
+1⃣ Install allure-playwright (THIS IS REQUIRED)
+npm install --save-dev allure-playwright
+
+2⃣ (Optional but recommended) Ensure Allure CLI is installed
+npm install -g allure-commandline
+allure --version
+
+3⃣ Check your playwright.config.ts
+import { defineConfig } from '@playwright/test';
+
+"export default defineConfig({
+  reporter: [
+    ['list'],
+    ['allure-playwright']
+  ],
+});"
+
+4⃣ Run tests again
+npx playwright test .....
+
+5⃣ Generate & open Allure report
+allure generate allure-results --clean
+allure open

@@ -38,6 +38,7 @@ export default defineConfig({
   // ['dot'],
   ['json', { outputFile: 'json-test-report.json' }],
   ['junit', { outputFile: 'junit-test-report.xml' }],
+  ['allure-playwright'],
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
@@ -46,7 +47,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     testIdAttribute: 'data-tab-item',
-    video: 'off',
+    video: 'on',
     screenshot: 'only-on-failure',
     trace: 'on',
     headless: false,
