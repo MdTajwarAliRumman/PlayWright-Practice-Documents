@@ -51,6 +51,7 @@ test('Handling prompt popups in Playwright', async ({ page }) => {
         // dialog.dismiss();
         console.log(`Prompt message is: ${dialog.message()}`);
         console.log(`Dialog type is: ${dialog.type()}`);
+
         await dialog.accept('Tajwar');
     })
 
