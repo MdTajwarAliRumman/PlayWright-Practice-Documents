@@ -66,3 +66,6 @@ npx playwright test DefaultTestFolder/Chapter_4/02_ReRunFailed_Test.spec.ts  (Th
 //********** testing failed testcases in terminal *****************
 npx playwright test --last-failed
 
+//------------------------------------------------------------------------------------------------------------------------->
+//********** testing with specific workers *****************
+npx playwright test DefaultTestFolder/Chapter_4/04_TestReport_test.spec.ts --workers 2

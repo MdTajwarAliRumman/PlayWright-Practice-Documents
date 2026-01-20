@@ -31,11 +31,11 @@ export default defineConfig({
   /* Retry on CI only */
   retries: process.env.CI ? 2 : 0,
   /* Opt out of parallel tests on CI. */
-  workers: process.env.CI ? 1 : undefined,
+  workers: process.env.CI ? 1 : 4,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [['html'],
   // ['list'],
-  ['dot'],
+  // ['dot'],
   ['json', { outputFile: 'json-test-report.json' }],
   ['junit', { outputFile: 'junit-test-report.xml' }],
   ],
@@ -46,6 +46,7 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     testIdAttribute: 'data-tab-item',
+    video: 'off',
     screenshot: 'only-on-failure',
     trace: 'on',
     headless: false,

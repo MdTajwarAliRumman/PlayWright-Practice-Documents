@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="4" failures="1" skipped="0" errors="0" time="23.862625">
-<testsuite name="Chapter_4\04_TestReport_test.spec.ts" timestamp="2026-01-19T10:07:43.873Z" hostname="Microsoft Edge" tests="4" failures="1" skipped="0" time="61.776" errors="0">
-<testcase name="SmokeTesting › Test-1" classname="Chapter_4\04_TestReport_test.spec.ts" time="12.771">
+<testsuites id="" name="" tests="4" failures="1" skipped="0" errors="0" time="44.114722">
+<testsuite name="Chapter_4\04_TestReport_test.spec.ts" timestamp="2026-01-20T05:13:49.677Z" hostname="Microsoft Edge" tests="4" failures="1" skipped="0" time="46.978" errors="0">
+<testcase name="SmokeTesting › Test-1" classname="Chapter_4\04_TestReport_test.spec.ts" time="10.199">
 <system-out>
 <![CDATA[test execution Started..
 
@@ -8,7 +8,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="RegressionTesting › test-2" classname="Chapter_4\04_TestReport_test.spec.ts" time="12.731">
+<testcase name="RegressionTesting › test-2" classname="Chapter_4\04_TestReport_test.spec.ts" time="9.652">
 <system-out>
 <![CDATA[test execution Started..
 
@@ -16,7 +16,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="RegressionTesting › Test -3" classname="Chapter_4\04_TestReport_test.spec.ts" time="14.099">
+<testcase name="RegressionTesting › Test -3" classname="Chapter_4\04_TestReport_test.spec.ts" time="9.047">
 <system-out>
 <![CDATA[test execution Started..
 
@@ -24,7 +24,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="RegressionTesting › Test-4" classname="Chapter_4\04_TestReport_test.spec.ts" time="22.175">
+<testcase name="RegressionTesting › Test-4" classname="Chapter_4\04_TestReport_test.spec.ts" time="18.08">
 <failure message="04_TestReport_test.spec.ts:51:9 Test-4" type="FAILURE">
 <![CDATA[  [Microsoft Edge] › Chapter_4\04_TestReport_test.spec.ts:51:9 › RegressionTesting › Test-4 ────────
 
