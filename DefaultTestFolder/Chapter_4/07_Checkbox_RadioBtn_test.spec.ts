@@ -8,6 +8,7 @@ test('Working with Radio button in playwright', async ({ page }) => {
 
     await page.goto('https://jqueryui.com/checkboxradio/');
 
+
     const iFrame = await page.frameLocator('[class="demo-frame"]');
 
     await expect(iFrame.locator('[for="radio-2"]').first()).not.toBeChecked();

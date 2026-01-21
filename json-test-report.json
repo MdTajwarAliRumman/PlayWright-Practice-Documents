@@ -64,13 +64,13 @@
   },
   "suites": [
     {
-      "title": "Chapter_4\\07_Checkbox_RadioBtn_test.spec.ts",
-      "file": "Chapter_4/07_Checkbox_RadioBtn_test.spec.ts",
+      "title": "Chapter_4\\06_Iterating_Elements_Test.spec.ts",
+      "file": "Chapter_4/06_Iterating_Elements_Test.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Working with Checkbox in playwright",
+          "title": "Iterating matching elements in playwright",
           "ok": true,
           "tags": [],
           "tests": [
@@ -82,25 +82,85 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 6,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 4318,
+                  "duration": 9902,
                   "errors": [],
                   "stdout": [
                     {
                       "text": "test execution Started..\n"
+                    },
+                    {
+                      "text": "Repository name is: Food-Diet-and-Nutrition-WebApp\n"
+                    },
+                    {
+                      "text": "Repository name is: Food_Delivery_System-FoodieVerse-\n"
+                    },
+                    {
+                      "text": "Repository name is: Heart_Disease_prediction\n"
+                    },
+                    {
+                      "text": "Repository name is: Online-Gadget-Store\n"
+                    },
+                    {
+                      "text": "Repository name is: Tajwar-s-Portfolio-Website\n"
+                    },
+                    {
+                      "text": "Repository name is: Test-Cases\n"
+                    },
+                    {
+                      "text": "==================================================\n"
+                    },
+                    {
+                      "text": "Text from 2nd for loop: Food-Diet-and-Nutrition-WebApp\n"
+                    },
+                    {
+                      "text": "Text from 2nd for loop: Food_Delivery_System-FoodieVerse-\n"
+                    },
+                    {
+                      "text": "Text from 2nd for loop: Heart_Disease_prediction\n"
+                    },
+                    {
+                      "text": "Text from 2nd for loop: Online-Gadget-Store\n"
+                    },
+                    {
+                      "text": "Text from 2nd for loop: Tajwar-s-Portfolio-Website\n"
+                    },
+                    {
+                      "text": "Text from 2nd for loop: Test-Cases\n"
+                    },
+                    {
+                      "text": "==================================================\n"
+                    },
+                    {
+                      "text": "Text from 3rd for loop: Food-Diet-and-Nutrition-WebApp\n"
+                    },
+                    {
+                      "text": "Text from 3rd for loop: Food_Delivery_System-FoodieVerse-\n"
+                    },
+                    {
+                      "text": "Text from 3rd for loop: Heart_Disease_prediction\n"
+                    },
+                    {
+                      "text": "Text from 3rd for loop: Online-Gadget-Store\n"
+                    },
+                    {
+                      "text": "Text from 3rd for loop: Tajwar-s-Portfolio-Website\n"
+                    },
+                    {
+                      "text": "Text from 3rd for loop: Test-Cases\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-01-21T09:17:36.931Z",
+                  "startTime": "2026-01-21T10:10:03.796Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_4-07_Checkbox_Radi-03790-with-Checkbox-in-playwright-Microsoft-Edge\\trace.zip"
+                      "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_4-06_Iterating_Ele-9c6a1-hing-elements-in-playwright-Microsoft-Edge\\trace.zip"
                     }
                   ]
                 }
@@ -108,9 +168,9 @@
               "status": "expected"
             }
           ],
-          "id": "aedd1d7d06946ef6b1f7-3d7a688b45d29e3f3b6b",
-          "file": "Chapter_4/07_Checkbox_RadioBtn_test.spec.ts",
-          "line": 19,
+          "id": "5921d904962f0d51645f-fb05a74fdd4e3d1cb2e8",
+          "file": "Chapter_4/06_Iterating_Elements_Test.spec.ts",
+          "line": 5,
           "column": 5
         }
       ]
@@ -118,8 +178,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-01-21T09:17:35.713Z",
-    "duration": 6098.805000000168,
+    "startTime": "2026-01-21T10:10:02.507Z",
+    "duration": 12215.225000000559,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
