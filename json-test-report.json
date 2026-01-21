@@ -64,13 +64,13 @@
   },
   "suites": [
     {
-      "title": "Chapter_4\\06_Iterating_Elements_Test.spec.ts",
-      "file": "Chapter_4/06_Iterating_Elements_Test.spec.ts",
+      "title": "Chapter_5\\01_ReadENVFile_Test.spec.ts",
+      "file": "Chapter_5/01_ReadENVFile_Test.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Iterating matching elements in playwright",
+          "title": "Read Env file configuration in playwright",
           "ok": true,
           "tags": [],
           "tests": [
@@ -82,85 +82,25 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 6,
+                  "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 9902,
+                  "duration": 9190,
                   "errors": [],
                   "stdout": [
                     {
                       "text": "test execution Started..\n"
-                    },
-                    {
-                      "text": "Repository name is: Food-Diet-and-Nutrition-WebApp\n"
-                    },
-                    {
-                      "text": "Repository name is: Food_Delivery_System-FoodieVerse-\n"
-                    },
-                    {
-                      "text": "Repository name is: Heart_Disease_prediction\n"
-                    },
-                    {
-                      "text": "Repository name is: Online-Gadget-Store\n"
-                    },
-                    {
-                      "text": "Repository name is: Tajwar-s-Portfolio-Website\n"
-                    },
-                    {
-                      "text": "Repository name is: Test-Cases\n"
-                    },
-                    {
-                      "text": "==================================================\n"
-                    },
-                    {
-                      "text": "Text from 2nd for loop: Food-Diet-and-Nutrition-WebApp\n"
-                    },
-                    {
-                      "text": "Text from 2nd for loop: Food_Delivery_System-FoodieVerse-\n"
-                    },
-                    {
-                      "text": "Text from 2nd for loop: Heart_Disease_prediction\n"
-                    },
-                    {
-                      "text": "Text from 2nd for loop: Online-Gadget-Store\n"
-                    },
-                    {
-                      "text": "Text from 2nd for loop: Tajwar-s-Portfolio-Website\n"
-                    },
-                    {
-                      "text": "Text from 2nd for loop: Test-Cases\n"
-                    },
-                    {
-                      "text": "==================================================\n"
-                    },
-                    {
-                      "text": "Text from 3rd for loop: Food-Diet-and-Nutrition-WebApp\n"
-                    },
-                    {
-                      "text": "Text from 3rd for loop: Food_Delivery_System-FoodieVerse-\n"
-                    },
-                    {
-                      "text": "Text from 3rd for loop: Heart_Disease_prediction\n"
-                    },
-                    {
-                      "text": "Text from 3rd for loop: Online-Gadget-Store\n"
-                    },
-                    {
-                      "text": "Text from 3rd for loop: Tajwar-s-Portfolio-Website\n"
-                    },
-                    {
-                      "text": "Text from 3rd for loop: Test-Cases\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-01-21T10:10:03.796Z",
+                  "startTime": "2026-01-21T11:23:34.691Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_4-06_Iterating_Ele-9c6a1-hing-elements-in-playwright-Microsoft-Edge\\trace.zip"
+                      "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_5-01_ReadENVFile_T-d9561-configuration-in-playwright-Microsoft-Edge\\trace.zip"
                     }
                   ]
                 }
@@ -168,8 +108,8 @@
               "status": "expected"
             }
           ],
-          "id": "5921d904962f0d51645f-fb05a74fdd4e3d1cb2e8",
-          "file": "Chapter_4/06_Iterating_Elements_Test.spec.ts",
+          "id": "c8b4e096a8ce4b3ea01d-7431fafe5128ad91ad43",
+          "file": "Chapter_5/01_ReadENVFile_Test.spec.ts",
           "line": 5,
           "column": 5
         }
@@ -178,8 +118,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-01-21T10:10:02.507Z",
-    "duration": 12215.225000000559,
+    "startTime": "2026-01-21T11:23:33.410Z",
+    "duration": 11316.27,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

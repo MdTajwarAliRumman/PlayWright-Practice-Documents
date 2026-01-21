@@ -95,3 +95,7 @@ npx playwright test .....
 5⃣ Generate & open Allure report
 allure generate allure-results --clean
 allure open
+
+//------------------------------------------------------------------------------------------------------------------------->
+//********** Code for dotenv (also uncomment in playwright.config.ts line 9-11) *****************
+npm install dotenv --save

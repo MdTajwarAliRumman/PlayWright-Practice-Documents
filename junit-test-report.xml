@@ -1,30 +1,10 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="12.215225000000558">
-<testsuite name="Chapter_4\06_Iterating_Elements_Test.spec.ts" timestamp="2026-01-21T10:10:03.159Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="9.902" errors="0">
-<testcase name="Iterating matching elements in playwright" classname="Chapter_4\06_Iterating_Elements_Test.spec.ts" time="9.902">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="11.316270000000001">
+<testsuite name="Chapter_5\01_ReadENVFile_Test.spec.ts" timestamp="2026-01-21T11:23:34.074Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="9.19" errors="0">
+<testcase name="Read Env file configuration in playwright" classname="Chapter_5\01_ReadENVFile_Test.spec.ts" time="9.19">
 <system-out>
 <![CDATA[test execution Started..
-Repository name is: Food-Diet-and-Nutrition-WebApp
-Repository name is: Food_Delivery_System-FoodieVerse-
-Repository name is: Heart_Disease_prediction
-Repository name is: Online-Gadget-Store
-Repository name is: Tajwar-s-Portfolio-Website
-Repository name is: Test-Cases
-==================================================
-Text from 2nd for loop: Food-Diet-and-Nutrition-WebApp
-Text from 2nd for loop: Food_Delivery_System-FoodieVerse-
-Text from 2nd for loop: Heart_Disease_prediction
-Text from 2nd for loop: Online-Gadget-Store
-Text from 2nd for loop: Tajwar-s-Portfolio-Website
-Text from 2nd for loop: Test-Cases
-==================================================
-Text from 3rd for loop: Food-Diet-and-Nutrition-WebApp
-Text from 3rd for loop: Food_Delivery_System-FoodieVerse-
-Text from 3rd for loop: Heart_Disease_prediction
-Text from 3rd for loop: Online-Gadget-Store
-Text from 3rd for loop: Tajwar-s-Portfolio-Website
-Text from 3rd for loop: Test-Cases
 
-[[ATTACHMENT|test-results\Chapter_4-06_Iterating_Ele-9c6a1-hing-elements-in-playwright-Microsoft-Edge\trace.zip]]
+[[ATTACHMENT|test-results\Chapter_5-01_ReadENVFile_T-d9561-configuration-in-playwright-Microsoft-Edge\trace.zip]]
 ]]>
 </system-out>
 </testcase>
