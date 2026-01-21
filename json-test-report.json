@@ -30,10 +30,6 @@
         {
           "outputFile": "junit-test-report.xml"
         }
-      ],
-      [
-        "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
-        null
       ]
     ],
     "reportSlowTests": {
@@ -68,13 +64,13 @@
   },
   "suites": [
     {
-      "title": "Chapter_4\\05_TextContent_Attribute_Test.spec.ts",
-      "file": "Chapter_4/05_TextContent_Attribute_Test.spec.ts",
+      "title": "Chapter_4\\07_Checkbox_RadioBtn_test.spec.ts",
+      "file": "Chapter_4/07_Checkbox_RadioBtn_test.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Get text and get attribute value in playwright",
+          "title": "Working with Checkbox in playwright",
           "ok": true,
           "tags": [],
           "tests": [
@@ -86,28 +82,25 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 7,
+                  "workerIndex": 2,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 3297,
+                  "duration": 4318,
                   "errors": [],
                   "stdout": [
                     {
                       "text": "test execution Started..\n"
-                    },
-                    {
-                      "text": "Attribute value is: null\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-01-20T06:42:16.388Z",
+                  "startTime": "2026-01-21T09:17:36.931Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_4-05_TextContent_A-f5ee7-tribute-value-in-playwright-Microsoft-Edge\\trace.zip"
+                      "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_4-07_Checkbox_Radi-03790-with-Checkbox-in-playwright-Microsoft-Edge\\trace.zip"
                     }
                   ]
                 }
@@ -115,9 +108,9 @@
               "status": "expected"
             }
           ],
-          "id": "5761c7b549dd8dc6cff9-4b02003bfc2836b07df4",
-          "file": "Chapter_4/05_TextContent_Attribute_Test.spec.ts",
-          "line": 5,
+          "id": "aedd1d7d06946ef6b1f7-3d7a688b45d29e3f3b6b",
+          "file": "Chapter_4/07_Checkbox_RadioBtn_test.spec.ts",
+          "line": 19,
           "column": 5
         }
       ]
@@ -125,8 +118,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-01-20T06:42:14.992Z",
-    "duration": 5276.280000000028,
+    "startTime": "2026-01-21T09:17:35.713Z",
+    "duration": 6098.805000000168,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

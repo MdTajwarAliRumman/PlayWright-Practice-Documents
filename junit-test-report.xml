@@ -1,11 +1,10 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="5.276280000000028">
-<testsuite name="Chapter_4\05_TextContent_Attribute_Test.spec.ts" timestamp="2026-01-20T06:42:15.781Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="3.297" errors="0">
-<testcase name="Get text and get attribute value in playwright" classname="Chapter_4\05_TextContent_Attribute_Test.spec.ts" time="3.297">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="6.0988050000001675">
+<testsuite name="Chapter_4\07_Checkbox_RadioBtn_test.spec.ts" timestamp="2026-01-21T09:17:36.330Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="4.318" errors="0">
+<testcase name="Working with Checkbox in playwright" classname="Chapter_4\07_Checkbox_RadioBtn_test.spec.ts" time="4.318">
 <system-out>
 <![CDATA[test execution Started..
-Attribute value is: null
 
-[[ATTACHMENT|test-results\Chapter_4-05_TextContent_A-f5ee7-tribute-value-in-playwright-Microsoft-Edge\trace.zip]]
+[[ATTACHMENT|test-results\Chapter_4-07_Checkbox_Radi-03790-with-Checkbox-in-playwright-Microsoft-Edge\trace.zip]]
 ]]>
 </system-out>
 </testcase>
