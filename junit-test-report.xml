@@ -1,10 +1,10 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="12.756177000001072">
-<testsuite name="Chapter_5\03_DataDrivenTestingUsingCSV_Test.spec.ts" timestamp="2026-01-22T06:49:11.711Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="10.573" errors="0">
-<testcase name="Data Driven testing using csv file in playwright : Playwright by Testers Talk ✅ - YouTube" classname="Chapter_5\03_DataDrivenTestingUsingCSV_Test.spec.ts" time="10.573">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="8.503996999999988">
+<testsuite name="Chapter_5\05_PageObjectModel_Test.spec.ts" timestamp="2026-01-22T11:05:35.203Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="6.441" errors="0">
+<testcase name="Page Object Model test in playwright" classname="Chapter_5\05_PageObjectModel_Test.spec.ts" time="6.441">
 <system-out>
 <![CDATA[test execution Started..
 
-[[ATTACHMENT|test-results\Chapter_5-03_DataDrivenTes-03a91-by-Testers-Talk-✅---YouTube-Microsoft-Edge\trace.zip]]
+[[ATTACHMENT|test-results\Chapter_5-05_PageObjectMod-172d9-ct-Model-test-in-playwright-Microsoft-Edge\trace.zip]]
 ]]>
 </system-out>
 </testcase>
