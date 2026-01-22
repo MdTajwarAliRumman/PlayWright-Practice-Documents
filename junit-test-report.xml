@@ -1,10 +1,18 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="11.316270000000001">
-<testsuite name="Chapter_5\01_ReadENVFile_Test.spec.ts" timestamp="2026-01-21T11:23:34.074Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="9.19" errors="0">
-<testcase name="Read Env file configuration in playwright" classname="Chapter_5\01_ReadENVFile_Test.spec.ts" time="9.19">
+<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="9.881925999999977">
+<testsuite name="Chapter_5\02_DataDrivenTestingUsingJSON_Test.spec.ts" timestamp="2026-01-22T05:32:28.989Z" hostname="Microsoft Edge" tests="2" failures="0" skipped="0" time="14.759" errors="0">
+<testcase name="Data Driven testing using json file in playwright : Playwright by Testers Talk ✅ - YouTube" classname="Chapter_5\02_DataDrivenTestingUsingJSON_Test.spec.ts" time="7.677">
 <system-out>
 <![CDATA[test execution Started..
 
-[[ATTACHMENT|test-results\Chapter_5-01_ReadENVFile_T-d9561-configuration-in-playwright-Microsoft-Edge\trace.zip]]
+[[ATTACHMENT|test-results\Chapter_5-02_DataDrivenTes-25865-by-Testers-Talk-✅---YouTube-Microsoft-Edge\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Data Driven testing using json file in playwright : JavaScript by Testers Talk ✅ - YouTube" classname="Chapter_5\02_DataDrivenTestingUsingJSON_Test.spec.ts" time="7.082">
+<system-out>
+<![CDATA[test execution Started..
+
+[[ATTACHMENT|test-results\Chapter_5-02_DataDrivenTes-7751b-by-Testers-Talk-✅---YouTube-Microsoft-Edge\trace.zip]]
 ]]>
 </system-out>
 </testcase>

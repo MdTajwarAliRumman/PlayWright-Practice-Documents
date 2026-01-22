@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 2
     },
     "preserveOutput": "always",
     "reporter": [
@@ -43,7 +43,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 2
         },
         "id": "Microsoft Edge",
         "name": "Microsoft Edge",
@@ -64,13 +64,13 @@
   },
   "suites": [
     {
-      "title": "Chapter_5\\01_ReadENVFile_Test.spec.ts",
-      "file": "Chapter_5/01_ReadENVFile_Test.spec.ts",
+      "title": "Chapter_5\\02_DataDrivenTestingUsingJSON_Test.spec.ts",
+      "file": "Chapter_5/02_DataDrivenTestingUsingJSON_Test.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Read Env file configuration in playwright",
+          "title": "Data Driven testing using json file in playwright : Playwright by Testers Talk ✅ - YouTube",
           "ok": true,
           "tags": [],
           "tests": [
@@ -82,10 +82,10 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 20,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 9190,
+                  "duration": 7677,
                   "errors": [],
                   "stdout": [
                     {
@@ -94,13 +94,13 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-01-21T11:23:34.691Z",
+                  "startTime": "2026-01-22T05:32:29.621Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_5-01_ReadENVFile_T-d9561-configuration-in-playwright-Microsoft-Edge\\trace.zip"
+                      "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_5-02_DataDrivenTes-25865-by-Testers-Talk-✅---YouTube-Microsoft-Edge\\trace.zip"
                     }
                   ]
                 }
@@ -108,19 +108,63 @@
               "status": "expected"
             }
           ],
-          "id": "c8b4e096a8ce4b3ea01d-7431fafe5128ad91ad43",
-          "file": "Chapter_5/01_ReadENVFile_Test.spec.ts",
-          "line": 5,
-          "column": 5
+          "id": "c014d71f1ec28cbcd0c4-03a61fac2a6bd90e6d63",
+          "file": "Chapter_5/02_DataDrivenTestingUsingJSON_Test.spec.ts",
+          "line": 22,
+          "column": 9
+        },
+        {
+          "title": "Data Driven testing using json file in playwright : JavaScript by Testers Talk ✅ - YouTube",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 21,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 7082,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "test execution Started..\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-22T05:32:29.620Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_5-02_DataDrivenTes-7751b-by-Testers-Talk-✅---YouTube-Microsoft-Edge\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c014d71f1ec28cbcd0c4-917b5256a0e6f337a68a",
+          "file": "Chapter_5/02_DataDrivenTestingUsingJSON_Test.spec.ts",
+          "line": 22,
+          "column": 9
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-01-21T11:23:33.410Z",
-    "duration": 11316.27,
-    "expected": 1,
+    "startTime": "2026-01-22T05:32:28.333Z",
+    "duration": 9881.925999999978,
+    "expected": 2,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
