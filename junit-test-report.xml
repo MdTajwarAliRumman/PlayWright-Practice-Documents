@@ -1,18 +1,10 @@
-<testsuites id="" name="" tests="2" failures="0" skipped="0" errors="0" time="9.881925999999977">
-<testsuite name="Chapter_5\02_DataDrivenTestingUsingJSON_Test.spec.ts" timestamp="2026-01-22T05:32:28.989Z" hostname="Microsoft Edge" tests="2" failures="0" skipped="0" time="14.759" errors="0">
-<testcase name="Data Driven testing using json file in playwright : Playwright by Testers Talk ✅ - YouTube" classname="Chapter_5\02_DataDrivenTestingUsingJSON_Test.spec.ts" time="7.677">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="12.756177000001072">
+<testsuite name="Chapter_5\03_DataDrivenTestingUsingCSV_Test.spec.ts" timestamp="2026-01-22T06:49:11.711Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="10.573" errors="0">
+<testcase name="Data Driven testing using csv file in playwright : Playwright by Testers Talk ✅ - YouTube" classname="Chapter_5\03_DataDrivenTestingUsingCSV_Test.spec.ts" time="10.573">
 <system-out>
 <![CDATA[test execution Started..
 
-[[ATTACHMENT|test-results\Chapter_5-02_DataDrivenTes-25865-by-Testers-Talk-✅---YouTube-Microsoft-Edge\trace.zip]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Data Driven testing using json file in playwright : JavaScript by Testers Talk ✅ - YouTube" classname="Chapter_5\02_DataDrivenTestingUsingJSON_Test.spec.ts" time="7.082">
-<system-out>
-<![CDATA[test execution Started..
-
-[[ATTACHMENT|test-results\Chapter_5-02_DataDrivenTes-7751b-by-Testers-Talk-✅---YouTube-Microsoft-Edge\trace.zip]]
+[[ATTACHMENT|test-results\Chapter_5-03_DataDrivenTes-03a91-by-Testers-Talk-✅---YouTube-Microsoft-Edge\trace.zip]]
 ]]>
 </system-out>
 </testcase>
