@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="8.503996999999988">
-<testsuite name="Chapter_5\05_PageObjectModel_Test.spec.ts" timestamp="2026-01-22T11:05:35.203Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="6.441" errors="0">
-<testcase name="Page Object Model test in playwright" classname="Chapter_5\05_PageObjectModel_Test.spec.ts" time="6.441">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="9.697816999999999">
+<testsuite name="Chapter_5\05_PageObjectModel_Test.spec.ts" timestamp="2026-01-24T08:44:40.589Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="7.67" errors="0">
+<testcase name="Page Object Model test in playwright" classname="Chapter_5\05_PageObjectModel_Test.spec.ts" time="7.67">
 <system-out>
 <![CDATA[test execution Started..
 

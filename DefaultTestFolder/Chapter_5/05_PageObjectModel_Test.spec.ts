@@ -7,6 +7,7 @@ import { PlaylistPage } from '../../src/pages/PlaylistPage';
 // write a test
 test('Page Object Model test in playwright', async ({ page }) => {
 
+    await page.setViewportSize({ width: 640, height: 480 });
     console.log('test execution Started..');
     // create object of HomePage
     const homePage = new HomePage(page);

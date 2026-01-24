@@ -51,16 +51,26 @@ export default defineConfig({
     screenshot: 'only-on-failure',
     trace: 'on',
     headless: false,
-
     // action timeout
     actionTimeout: 10000,
+
+    // launchOptions: {
+    //   args: ['--start-maximized'],
+    // },
   },
 
   /* Configure projects for major browsers */
   projects: [
     // {
     //   name: 'chromium',
-    //   use: { ...devices['Desktop Chrome'] },
+    //   use: {
+    //     ...devices['Desktop Chrome'],
+    //     viewport: {
+    //       width: 1920,
+    //       height: 1080,
+    //     }
+    //   },
+
     // },
 
     // {
