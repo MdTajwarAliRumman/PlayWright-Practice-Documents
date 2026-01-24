@@ -64,13 +64,13 @@
   },
   "suites": [
     {
-      "title": "Chapter_5\\05_PageObjectModel_Test.spec.ts",
-      "file": "Chapter_5/05_PageObjectModel_Test.spec.ts",
+      "title": "Chapter_5\\06_Fixture_Test.spec.ts",
+      "file": "Chapter_5/06_Fixture_Test.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Page Object Model test in playwright",
+          "title": "Implementation of Fixture in playwright",
           "ok": true,
           "tags": [],
           "tests": [
@@ -82,25 +82,34 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 1,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 7670,
+                  "duration": 7927,
                   "errors": [],
                   "stdout": [
                     {
+                      "text": "Global before is running...\n"
+                    },
+                    {
                       "text": "test execution Started..\n"
+                    },
+                    {
+                      "text": "test execution Ended..\n"
+                    },
+                    {
+                      "text": "Global afterEach is running...\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-01-24T08:44:41.204Z",
+                  "startTime": "2026-01-24T09:10:38.835Z",
                   "annotations": [],
                   "attachments": [
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_5-05_PageObjectMod-172d9-ct-Model-test-in-playwright-Microsoft-Edge\\trace.zip"
+                      "path": "C:\\Users\\Tajwar (Day Shift)\\Desktop\\All Important docs\\Automation tests\\Playwright test\\test-results\\Chapter_5-06_Fixture_Test--1cf22-on-of-Fixture-in-playwright-Microsoft-Edge\\trace.zip"
                     }
                   ]
                 }
@@ -108,9 +117,9 @@
               "status": "expected"
             }
           ],
-          "id": "bbb087ac95245daa4dc6-ab30c470d62370da503d",
-          "file": "Chapter_5/05_PageObjectModel_Test.spec.ts",
-          "line": 8,
+          "id": "bb948f8b79fa58d48c1f-14455985cea32d6ac128",
+          "file": "Chapter_5/06_Fixture_Test.spec.ts",
+          "line": 9,
           "column": 5
         }
       ]
@@ -118,8 +127,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-01-24T08:44:39.923Z",
-    "duration": 9697.817,
+    "startTime": "2026-01-24T09:10:37.594Z",
+    "duration": 9962.003000000026,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,

@@ -1,10 +1,13 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="9.697816999999999">
-<testsuite name="Chapter_5\05_PageObjectModel_Test.spec.ts" timestamp="2026-01-24T08:44:40.589Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="7.67" errors="0">
-<testcase name="Page Object Model test in playwright" classname="Chapter_5\05_PageObjectModel_Test.spec.ts" time="7.67">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="9.962003000000026">
+<testsuite name="Chapter_5\06_Fixture_Test.spec.ts" timestamp="2026-01-24T09:10:38.225Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="7.927" errors="0">
+<testcase name="Implementation of Fixture in playwright" classname="Chapter_5\06_Fixture_Test.spec.ts" time="7.927">
 <system-out>
-<![CDATA[test execution Started..
+<![CDATA[Global before is running...
+test execution Started..
+test execution Ended..
+Global afterEach is running...
 
-[[ATTACHMENT|test-results\Chapter_5-05_PageObjectMod-172d9-ct-Model-test-in-playwright-Microsoft-Edge\trace.zip]]
+[[ATTACHMENT|test-results\Chapter_5-06_Fixture_Test--1cf22-on-of-Fixture-in-playwright-Microsoft-Edge\trace.zip]]
 ]]>
 </system-out>
 </testcase>
